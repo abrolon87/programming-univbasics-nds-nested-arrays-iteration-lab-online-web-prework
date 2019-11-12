@@ -4,7 +4,7 @@ def join_ingredients(src)
   while row_index < array_1.count do
     element_index = 0
     while element_index < array_1[row_index].count do
-      puts "I love #{array_1[row_index]} and #{array_1[element_index]} on my pizza"
+      return "I love #{array_1[row_index]} and #{array_1[element_index]} on my pizza"
       element_index += 1
     end
     row_index += 1
