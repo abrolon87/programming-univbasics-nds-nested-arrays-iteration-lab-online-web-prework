@@ -1,19 +1,15 @@
 def join_ingredients(src)
-  array_1 = [['pepperoni', 'sausage'], ['green olives', 'green peppers'], ['onions', 'pineapple']]
-  row_index = 0
-  while row_index < array_1.count do
-    element_index = 0
-    while element_index < array_1[row_index].count do
-      puts "I love #{array_1[0][0]} and #{array_1[0][1]} on my pizza"
-      element_index += 1
-    end
-    row_index += 1
-end #=> nil
+  result = []
+  i = 0
+  while i < src.length do
+    inner = src[i]
+    result << "I love #{inner[0]} and #{inner[1]} on my pizza"
+    i += 1
+  end
 
-#def join_ingredients(src)
-#array.each do |item|
-#  puts "I love #{item} and #{item} on my pizza."
-#end
+  result
+end
+
 
 
 
