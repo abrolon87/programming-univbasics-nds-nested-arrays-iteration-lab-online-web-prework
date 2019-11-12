@@ -1,4 +1,5 @@
 def join_ingredients(src)
+  array_1 = []
   row_index = 0
   while row_index < array_1.count do
     element_index = 0
