@@ -1,5 +1,6 @@
 def join_ingredients(src)
   result = []
+
   i = 0
   while i < src.length do
     inner = src[i]
